@@ -56,7 +56,7 @@ const QuizResult = function QuizResult({ score, total, wrongQuestions, onRetry }
         : '\n\n全問正解！🎉';
 
       const shareText = `科学知識テストで${total}点中${score}点でした！${wrongQuestionsText}`;
-      const appUrl = 'https://blueferret.mbsrv.net/quiz-app/';
+      const appUrl = 'https://youzoom64.github.io/quiz-app/';
 
       // Twitter共有URLを作成
       const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(appUrl)}`;
